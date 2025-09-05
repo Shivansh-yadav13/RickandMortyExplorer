@@ -35,7 +35,6 @@ A modern web application that allows users to explore characters from the Rick a
 ## 📁 Project Structure
 
 ```
-src/
 ├── app/                    # Next.js App Router
 │   ├── layout.tsx         # Root layout with metadata
 │   ├── page.tsx           # Main application page
@@ -112,23 +111,17 @@ src/
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd ricknmorty-app
-   ```
-
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    npm install
    ```
 
-3. **Start development server**
+2. **Start development server**
    ```bash
    npm run dev
    ```
 
-4. **Open in browser**
+3. **Open in browser**
    ```
    http://localhost:3000
    ```
@@ -189,10 +182,10 @@ npm start
 - **Export Features**: Download character data as PDF/JSON
 
 ### Infrastructure
-- **Database**: PostgreSQL for user data and caching
+- **Database**: Add PostgreSQL for user data and caching
 - **Authentication**: NextAuth.js for user management
-- **Deployment**: Vercel with preview deployments
-- **Monitoring**: Sentry for error tracking and performance monitoring
+- **Deployment**: Deploy to Vercel with preview environments
+- **Monitoring**: Add Sentry for error tracking and performance monitoring
 
 ## 📊 Current Limitations
 
@@ -201,25 +194,9 @@ npm start
 3. **No Persistence**: No user accounts or server-side data storage
 4. **Single Dimension**: Only searches current location, not origin or episode locations
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is for educational purposes. Rick and Morty content is owned by Adult Swim/Cartoon Network.
-
 ## 🙏 Acknowledgments
 
 - **Rick and Morty API**: Free API providing all character and episode data
 - **shadcn/ui**: Beautiful and accessible UI components
 - **Tailwind CSS**: Utility-first CSS framework
 - **Lucide Icons**: Clean and consistent icon set
-
----
-
-*Built with ❤️ for Rick and Morty fans everywhere!*

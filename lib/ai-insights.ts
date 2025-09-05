@@ -10,7 +10,7 @@ export class AIInsightsGenerator {
     'Scary Terry', 'Abradolf Lincler', 'Tammy Guetermann', 'Pickle Rick'
   ];
 
-  private static readonly CHARACTER_ROLES = {
+  private static readonly CHARACTER_ROLES: Record<string, string> = {
     'Rick Sanchez': 'Mad scientist protagonist and grandfather',
     'Morty Smith': 'Reluctant sidekick and grandson',
     'Beth Smith': 'Horse surgeon and conflicted daughter/mother',
@@ -26,7 +26,7 @@ export class AIInsightsGenerator {
     'Tammy Guetermann': 'Galactic Federation agent and traitor'
   };
 
-  private static readonly NOTABLE_EVENTS = {
+  private static readonly NOTABLE_EVENTS: Record<string, string[]> = {
     'Rick Sanchez': [
       'Turned himself into a pickle to avoid family therapy',
       'Started the Citadel of Ricks and later destroyed it'
